@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #eef5ff;
+  color: #183153;
+  font: 1.1rem Arial, sans-serif;
+}
+
+main {
+  max-width: 42rem;
+  padding: 3rem;
+  text-align: center;
+}
