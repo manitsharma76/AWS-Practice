@@ -14,7 +14,7 @@ health endpoint is available for load balancer checks.
 ## Project structure
 
 ```text
-eb-zero-downtime/
+.
 ├── application.py
 ├── requirements.txt
 ├── templates/
