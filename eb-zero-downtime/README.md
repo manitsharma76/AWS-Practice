@@ -9,7 +9,19 @@ health endpoint is available for load balancer checks.
 - Python 3
 - Flask
 - Gunicorn
-- Embedded HTML and CSS (no frontend framework)
+- HTML templates and CSS (no frontend framework)
+
+## Project structure
+
+```text
+eb-zero-downtime/
+├── application.py
+├── requirements.txt
+├── templates/
+│   └── index.html
+└── static/
+    └── style.css
+```
 
 ## Run locally on macOS
 

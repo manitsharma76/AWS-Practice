@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elastic Beanstalk Deployment Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main>
+        <div class="eyebrow">AWS Elastic Beanstalk</div>
+        <h1>Elastic Beanstalk<br>Deployment Demo</h1>
+        <p class="intro">{{ message }}</p>
+
+        <div class="status-banner">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Deployment successful</span>
+        </div>
+
+        <section class="cards" aria-label="Deployment details">
+            <article class="card">
+                <span class="card-label">Environment</span>
+                <strong class="card-value">{{ environment }}</strong>
+            </article>
+            <article class="card">
+                <span class="card-label">Application version</span>
+                <strong class="card-value">{{ version }}</strong>
+            </article>
+            <article class="card">
+                <span class="card-label">Application status</span>
+                <strong class="card-value healthy">Healthy</strong>
+            </article>
+        </section>
+
+        <p class="footer">A simple Flask app, ready to deploy.</p>
+    </main>
+</body>
+</html>
